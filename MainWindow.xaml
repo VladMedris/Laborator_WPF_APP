@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:Medris_Vlad_Lab5"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid>
-        
+        <TabControl>
+            <TabItem Header="Customers">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Inventory">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Orders">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>
